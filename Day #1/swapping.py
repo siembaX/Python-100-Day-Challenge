@@ -1,3 +1,6 @@
+# The code below removes all noise from system prints
+print("\033c")
+
 a = input('value a: ');
 b = input('value b: ');
 
