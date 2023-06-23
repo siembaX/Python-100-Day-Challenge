@@ -1,3 +1,5 @@
+print("\033c")
+
 """ 
 This Program code calculates the rollercoaster fee based on age,
 It also checks elligability based on height
@@ -15,8 +17,8 @@ kids_price = 7
 # elif age >= 18:
 #     print(f"Your price is {adult_price} and you pay more");       
 # else:
-#     print("You're not elligable for your height")
-    
+#     print("You're not elligable for your height")    
+
 if height >= 120 and age >= 18:
     print(f"Elligible Height, Your Price is {adult_price} and you pay more")
 elif height >= 120 and age <= 18:
