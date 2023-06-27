@@ -1,3 +1,5 @@
+print("\033c")
+
 """ Bill Tip Calculator | Split Bills as well """
 
 bill = input("How much is your bill?\n$")
